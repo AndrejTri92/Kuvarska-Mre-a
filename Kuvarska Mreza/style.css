@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Jomolhari, Arial, sans-serif;
+    color: #333;
+    font-size: 16px;
+}
+header {
+    display: block;
+    height: 100px;
+    padding-top: 70px;
+}
+h1 {
+    text-align: center;
+}
+
+.container  {
+    display: flex;
+    flex-direction: column;
+    background-color: #dae3e4;
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    text-align: center;
+    margin-top: 150px;
+    padding: 8%;
+}
+.container .login input {
+   border: 1px solid #ddd;
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px;
+  outline-color: dimgrey;
+  text-align: center;
+}
+.btn {
+      border: 1px solid #ddd;
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px;
+  outline-color: dimgrey;
+  font-weight: bold;
+  cursor: pointer;
+}
+.btn:hover {
+    background: #333;
+    color: #fff;
+}
+
+.container {
+    
+} a {
+    text-decoration: none;
+    color: #333;
+    padding-top: 10px;
+    font-size: 75%;
+}
+.container a:hover {
+    color: #777;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  
+    .container  {
+    width: 400px;
+    height: 400px;
+}
+    .container a {
+  font-size: 14px;
+}
+    
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .container  {
+    width: 400px;
+    height: 400px;
+}
+ } 
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 1200px) {
+    .container {
+    padding: 0;
+    }
+    .container .login input {
+        margin-top: 15px;
+    }
+} 
