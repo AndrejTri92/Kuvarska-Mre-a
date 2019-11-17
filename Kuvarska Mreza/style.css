@@ -28,21 +28,26 @@ h1 {
     text-align: center;
     margin-top: 150px;
     padding: 8%;
+    border-radius: 10px;
+    
+}
+.form {
+    margin: auto;
 }
 .container .login input {
    border: 1px solid #ddd;
-  width: 100%;
+  width: 300px;
   border-radius: 5px;
   padding: 10px;
   outline-color: dimgrey;
-  text-align: center;
+  
 }
 .btn {
-      border: 1px solid #ddd;
+  border: 1px solid #ddd;
+  background-color: #fff;
   width: 100%;
   border-radius: 5px;
   padding: 10px;
-  outline-color: dimgrey;
   font-weight: bold;
   cursor: pointer;
 }
@@ -51,9 +56,7 @@ h1 {
     color: #fff;
 }
 
-.container {
-    
-} a {
+a {
     text-decoration: none;
     color: #333;
     padding-top: 10px;
