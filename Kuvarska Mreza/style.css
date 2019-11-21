@@ -159,3 +159,22 @@ a {
 .link a {
     color: #00ac56;
 }
+
+.horizontal-line:after {
+    display: block;
+    height: 1px;
+    background-color: rgba(150, 150, 150, 0.84);
+    content: " ";
+    width: 100px;
+   margin-left: 55px;
+    margin-top: -30px;
+}
+.horizontal-line:before {
+    display: block;
+    height: 1px;
+    background-color: rgba(150, 150, 150, 0.84);
+    content: " ";
+    width: 100px;
+   margin-left: 338px;
+    margin-bottom: -32px;
+}
