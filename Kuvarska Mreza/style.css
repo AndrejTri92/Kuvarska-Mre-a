@@ -9,7 +9,7 @@ body {
     color: #333;
     font-size: 16px;
 }
-header {
+.heading {
     display: block;
     height: 100px;
     padding-top: 70px;
@@ -28,21 +28,26 @@ h1 {
     text-align: center;
     margin-top: 150px;
     padding: 8%;
+    border-radius: 10px;
+    
+}
+.form {
+    margin: auto;
 }
 .container .login input {
    border: 1px solid #ddd;
-  width: 100%;
+  width: 300px;
   border-radius: 5px;
   padding: 10px;
   outline-color: dimgrey;
-  text-align: center;
+  
 }
 .btn {
-      border: 1px solid #ddd;
+  border: 1px solid #ddd;
+  background-color: #fff;
   width: 100%;
   border-radius: 5px;
   padding: 10px;
-  outline-color: dimgrey;
   font-weight: bold;
   cursor: pointer;
 }
@@ -51,9 +56,7 @@ h1 {
     color: #fff;
 }
 
-.container {
-    
-} a {
+a {
     text-decoration: none;
     color: #333;
     padding-top: 10px;
@@ -91,3 +94,129 @@ h1 {
         margin-top: 15px;
     }
 } 
+/* Registration Form */
+
+
+
+.color {
+    background: rgba(0, 43, 93, 0.55);
+}
+.wrraper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 500px;
+    height: 750px;
+    margin: auto;
+    margin-top: 130px;
+    padding-top: 120px;
+    background: #fff;
+    border-radius: 5px;
+}
+.wrraper h1 {
+    margin-bottom: 20px;
+}
+
+.wrraper input {
+    margin-bottom: 20px;
+}
+.wrraper .first-last input {
+    height: 50px;
+    width: 180px;
+    margin-right: 12px;
+    margin-left: 12px;
+    border-radius: 5px;
+    font-size: 22px
+}
+.wrraper .other input {
+  height: 50px;
+  width: 390px;
+  border-radius: 5px;
+  font-size: 22px
+}
+.btn-green {
+    background-color: #00cc66;
+    margin-top: 25px;
+     width: 390px;
+    height: 60px;
+    color: #fff;
+    font-size: 22px;
+    cursor: pointer;
+}
+.btn-green:hover {
+    background: #27ee8a;
+}
+.sign-in {
+    text-align: center;
+    color: #fff;
+}
+    
+.sign-in a {
+    text-decoration: underline;
+    color: #fff;
+}
+
+.link a {
+    color: #00ac56;
+}
+
+.horizontal-line:after {
+    display: block;
+    height: 1px;
+    background-color: rgba(150, 150, 150, 0.84);
+    content: " ";
+    width: 100px;
+   margin-left: 55px;
+    margin-top: -30px;
+}
+.horizontal-line:before {
+    display: block;
+    height: 1px;
+    background-color: rgba(150, 150, 150, 0.84);
+    content: " ";
+    width: 100px;
+   margin-left: 338px;
+    margin-bottom: -32px;
+}
+
+
+
+/*Search Bar*/
+.header-menu {
+    border: 1px solid black;
+    position: fixed;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    background: #343232;
+    height: 75px;
+    padding-top: 17px;
+}
+.links-menu a {
+    color: #fff;
+    font-size: 20px;
+   margin-right: 10px;
+}
+
+.search-menu {
+    margin-left: 1350px;
+    
+}
+
+.search-menu input {
+    height: 45px;
+    width: 250px;
+    border-radius: 8px;
+    font-size: 25px;
+}
+
+.search-btn {
+    height: 45px;
+    width: 120px;
+    border-radius: 8px;
+    font-size: 25px;
+    background: #343232;
+    border-color: rgba(16, 188, 16, 0.99);
+    color: rgba(16, 188, 16, 0.99);
+    cursor: pointer;
+}
