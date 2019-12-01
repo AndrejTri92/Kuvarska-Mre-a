@@ -196,6 +196,7 @@ a {
     color: #fff;
     font-size: 20px;
    margin-right: 10px;
+    margin-left: 5px;
 }
 
 .search-menu {
@@ -208,6 +209,8 @@ a {
     width: 250px;
     border-radius: 8px;
     font-size: 25px;
+    padding-left: 10px;
+    color: #b4b1b1;
 }
 
 .search-btn {
